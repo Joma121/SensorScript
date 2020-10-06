@@ -116,24 +116,6 @@ respectively.
 
 Here is the list and limits of the properties:
 
-Id       x
-
-Type     b, cv, lv, rv, null
-
-Range    x (any number)
-
-RangeVar x (any number)
-
-Width    x (any number)
-
-WidthVar x (any number)
-
-Dir      d, l, r, u, down, left, right, up
-
-ThisDir  true
-
-
-
 Id x
 
 	The Id of the event to be affected, this is not needed if the change is 
