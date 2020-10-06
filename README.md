@@ -14,10 +14,12 @@ Usage
 
 In the plugin parameters, set the self switch to be triggered on the event
 when a player enters the range. 
-
 Options are A, B, C, and D. Default is D.
 
-Event tags provide 2 way functionality, they will turn off the switch when
+Tags to make sensors can be placed in the event's note section or in a comment
+on the event page.
+
+Event note tags provide 2 way functionality, they will turn off the switch when
 the player leaves the event tag sensor zone.
 
 Comment tags only provide 1 way switching, they will NOT turn off the Self
@@ -167,9 +169,9 @@ Dir d, l, r, u, down, left, right, up
    
 ThisDir true
 
-				This will set the sensor to use the direction of the event itself.
-				Do NOT use both this and the Dir commands. This could easily lead to 
-				errors.
+	This will set the sensor to use the direction of the event itself.
+	Do NOT use both this and the Dir commands. This could easily lead to 
+	errors.
    
 
 ## A note about page sensor changes. 
