@@ -101,26 +101,25 @@ LSensor event property value
 LSensor page property value
 
 
-Okay, this is the Plugin command LSensor is required, as is either event or
-page.
+	LSensor prefix is required for the command to be recognized
+	Any number of properties may be used in a single command.
 
-You can have any number of properties and values in the Plugin command, but
-only 1 event or page identifier.
+	The event identifier is equivilant to using/modifying the event note tag.
 
-The event identifier is equivilant to using/modifying the event note tag.
-
-The page identifier is equivilant to using/modifying a comment tag.
+	The page identifier is equivilant to using/modifying a comment tag.
 
 
-LSensor off
+LSensor (on/off)
 
+	Turns on or off both event note and comment sensors in the event.
+	
 LSensor event off
+
+	Turns on or off event note sensor in the event.
 
 LSensor page off
 
-
-On/Off commands turn all, event level, or comment level sensors on or off
-respectively.
+	Turns on or off comment sensors in the event.
 
 
 Below is a list of the properties and their information:
