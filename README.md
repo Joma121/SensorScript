@@ -1,11 +1,11 @@
 # SensorScript
 Javascript plugin for RPGMaker MV. Allows events to detect player and each other using ranged and shaped detection areas.
-=============================================================================
+-----------------------------------------------------------------------------
 What does it do?
 -----------------------------------------------------------------------------
 This plugin activates a self switch when a player is in a certain proximity
 of an event. It uses a notetag in the note of the event to set the proximity.
-=============================================================================
+-----------------------------------------------------------------------------
 Usage
 -----------------------------------------------------------------------------
 In the plugin parameters, set the self switch to be triggered on the event
