@@ -96,10 +96,7 @@ Change your sensors on the fly! Use Plugin Commands to alter any aspect of
 sensors on your event. You could even ADD or REMOVE sensors to/from an event.
 
 
-LSensor event property value
-
-LSensor page property value
-
+LSensor (event/page) property value
 
 	LSensor prefix is required for the command to be recognized
 	Any number of properties may be used in a single command.
@@ -113,16 +110,16 @@ LSensor (on/off)
 
 	Turns on or off both event note and comment sensors in the event.
 	
-LSensor event off
+LSensor event (on/off)
 
 	Turns on or off event note sensor in the event.
 
-LSensor page off
+LSensor page (on/off)
 
 	Turns on or off comment sensors in the event.
 
 
-Below is a list of the properties and their information:
+-LSensor command properties:
 
 Id x
 
