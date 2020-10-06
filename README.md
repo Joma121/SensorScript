@@ -13,7 +13,8 @@ Usage
 -----------------------------------------------------------------------------
 
 In the plugin parameters, set the self switch to be triggered on the event
-when a player enters the range. Options are A, B, C, and D. Default is D.
+when a player enters the range. 
+Options are A, B, C, and D. Default is D.
 
 Event tags provide 2 way functionality, they will turn off the switch when
 the player leaves the event tag sensor zone.
@@ -70,8 +71,11 @@ direction, and y is the number of tiles away that the selfswitch will be
 triggered.
  
   <SensorCV: x L>
+  
   <SensorRV: x y left>
+  
   <SensorLV: x left up>
+  
 
 Sensor direction can be set using d, l, r, u, down, left, right, up. This is
 not case sensitive. The direction set is in relation to the event the tag is
