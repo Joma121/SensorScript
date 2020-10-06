@@ -42,6 +42,7 @@ page. All commas are optional.
     
 Placing an exclamation mark "!" in front of any number in the following tags
 will use the value of the variable with the ID of that number.
+
 Ex: <Sensor: !3> will use the value of variable 3.
 
    <Sensor: x>
@@ -125,16 +126,17 @@ Dir      d, l, r, u, down, left, right, up
 ThisDir  true
 
 
+
 Id x
 
-   The Id of the event to be affected, this is not needed if the change is 
-   to happen on the current event. Do NOT include preceding 0's.
+				The Id of the event to be affected, this is not needed if the change is 
+				to happen on the current event. Do NOT include preceding 0's.
    
 Type b, cv, lv, rv, null
 
-  These are basic, coneview, lineview, rectangleview, the shorthand MUST be
-   used. Width/WidthVar will be ignored on b, cv, and lv types. The command
-   null will prevent the sensor from working.
+				These are basic, coneview, lineview, rectangleview, the shorthand MUST be
+				used. Width/WidthVar will be ignored on b, cv, and lv types. The command
+				null will prevent the sensor from working.
    
 Range x (any number)
 
@@ -146,30 +148,30 @@ RangeVar x (any number)
     
 Width x (any number)
 
-   Know that if you set this and then WidthVar, Width will be overwritten.
+				Know that if you set this and then WidthVar, Width will be overwritten.
    
 WidthVar x (any number)
 
-   This is the variable number whose value will be used for the sensor Width.
+				This is the variable number whose value will be used for the sensor Width.
    
 Dir d, l, r, u, down, left, right, up
 
-   Shorthand or full word can be used with Dir. This will set the direction
-   that the sensor will use. Multiple directions can be used, a space is
-   required between each direction.
+				Shorthand or full word can be used with Dir. This will set the direction
+				that the sensor will use. Multiple directions can be used, a space is
+				required between each direction.
    
 ThisDir true
 
-   This will set the sensor to use the direction of the event itself.
-   Do NOT use both this and the Dir commands. This could easily lead to 
-   errors.
+				This will set the sensor to use the direction of the event itself.
+				Do NOT use both this and the Dir commands. This could easily lead to 
+				errors.
    
 
 ## A note about page sensor changes. 
-   The changes will only occur for the 
-   current page, and will not persist through page changes, even if the page
-   that was changed comes back up. The plugin will use the original tag, if
-   there was one, to make a sensor on page changes.
+				The changes will only occur for the 
+				current page, and will not persist through page changes, even if the page
+				that was changed comes back up. The plugin will use the original tag, if
+				there was one, to make a sensor on page changes.
 
 -----------------------------------------------------------------------------
 Special Thanks to Gilles, Estriole and YOU!
