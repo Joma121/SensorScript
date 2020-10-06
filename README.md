@@ -14,6 +14,7 @@ Usage
 
 In the plugin parameters, set the self switch to be triggered on the event
 when a player enters the range. 
+
 Options are A, B, C, and D. Default is D.
 
 Event tags provide 2 way functionality, they will turn off the switch when
@@ -96,8 +97,7 @@ LSensor event property value
 LSensor page property value
 
 Okay, this is the Plugin command LSensor is required, as is either event or
-page. If you don't have at least one property and value after these, why are
-you using the plugin command??
+page.
 
 You can have any number of properties and values in the Plugin command, but
 only 1 event or page identifier.
@@ -109,7 +109,8 @@ LSensor event off
 LSensor page off
 
 On/Off commands turn all, event level, or comment level sensors on or off
-respectively
+respectively.
+
 
 Here is the list and limits of the properties:
 
@@ -133,36 +134,36 @@ ThisDir  true
 
 Id x
 
-				The Id of the event to be affected, this is not needed if the change is 
-				to happen on the current event. Do NOT include preceding 0's.
+	The Id of the event to be affected, this is not needed if the change is 
+	to happen on the current event. Do NOT include preceding 0's.
    
 Type b, cv, lv, rv, null
 
-				These are basic, coneview, lineview, rectangleview, the shorthand MUST be
-				used. Width/WidthVar will be ignored on b, cv, and lv types. The command
-				null will prevent the sensor from working.
+	These are basic, coneview, lineview, rectangleview, the shorthand MUST be
+	used. Width/WidthVar will be ignored on b, cv, and lv types. The command
+	null will prevent the sensor from working.
    
 Range x (any number)
 
-    Know that if you set this and then RangeVar, Range will be overwritten.
+	Know that if you set this and then RangeVar, Range will be overwritten.
     
 RangeVar x (any number)
 
-    This is the variable number whose value will be used for the sensor Range.
+	This is the variable number whose value will be used for the sensor Range.
     
 Width x (any number)
 
-				Know that if you set this and then WidthVar, Width will be overwritten.
+	Know that if you set this and then WidthVar, Width will be overwritten.
    
 WidthVar x (any number)
 
-				This is the variable number whose value will be used for the sensor Width.
+	This is the variable number whose value will be used for the sensor Width.
    
 Dir d, l, r, u, down, left, right, up
 
-				Shorthand or full word can be used with Dir. This will set the direction
-				that the sensor will use. Multiple directions can be used, a space is
-				required between each direction.
+	Shorthand or full word can be used with Dir. This will set the direction
+	that the sensor will use. Multiple directions can be used, a space is
+	required between each direction.
    
 ThisDir true
 
@@ -172,10 +173,10 @@ ThisDir true
    
 
 ## A note about page sensor changes. 
-				The changes will only occur for the 
-				current page, and will not persist through page changes, even if the page
-				that was changed comes back up. The plugin will use the original tag, if
-				there was one, to make a sensor on page changes.
+The changes will only occur for the 
+current page, and will not persist through page changes, even if the page
+that was changed comes back up. The plugin will use the original tag, if
+there was one, to make a sensor on page changes.
 
 -----------------------------------------------------------------------------
 Special Thanks to Gilles, Estriole and YOU!
